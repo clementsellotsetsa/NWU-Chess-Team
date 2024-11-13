@@ -7,9 +7,11 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-image: url('images/navbar-bg.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100px;
+    color: purple;
 }
 
 nav ul {
@@ -36,6 +38,6 @@ section#main-content {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: purple;
     color: white;
 }
