@@ -38,6 +38,68 @@ section#main-content {
     text-align: center;
 }
 
+/* Gallery Section */
+#gallery {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#gallery h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.gallery-grid img, .gallery-grid video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Notice Board Section */
+#notice-board {
+    padding: 20px;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+#notice-board h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.notice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.notice {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notice h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+.notice p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
